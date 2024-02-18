@@ -17,7 +17,7 @@ public class OpenAiController {
 
     @Autowired
     RestTemplate restTemplate;
-    private String apiKey = "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";
+    private String apiKey = "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";
 
     @PostMapping("/audio")
     public String audio(@RequestParam("file") MultipartFile file){
@@ -43,18 +43,18 @@ public class OpenAiController {
                 String.class
         );
 
-        String finalReslut = transcription + "\nSummarized Text: " + responseEntity.getBody();
 
-        HttpEntity<String> requestEntity2 = new HttpEntity<>(finalReslut, headers);
 
-        ResponseEntity<String> responseEntity2 = restTemplate.exchange(
-                "http://localhost:8081//feedbackOpenaiApi",
-                HttpMethod.POST,
-                requestEntity2,
-                String.class
-        );
+//        HttpEntity<String> requestEntity2 = new HttpEntity<>(finalReslut, headers);
+//
+//        ResponseEntity<String> responseEntity2 = restTemplate.exchange(
+//                "http://localhost:8081//feedbackOpenaiApi",
+//                HttpMethod.POST,
+//                requestEntity2,
+//                String.class
+//        );
 
-        return transcription + "\n \nSummarized Text: " + responseEntity.getBody()+"\n \n Feedback for all: " + responseEntity2.getBody();
+        return "\nSummary: " + responseEntity.getBody();
     }
 
 
