@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 @RequiredArgsConstructor
 public class ChatGPTService {
-    private String openaiApiKey = "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";
+    private String openaiApiKey = "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";
 
 
     @Bean // Bean

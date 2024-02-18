@@ -22,6 +22,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 
 @Controller
+
 @CrossOrigin("http://localhost:8081")
 public class FilesController {
 

@@ -40,6 +40,8 @@
 			<version>0.14.0</version>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>com.assemblyai</groupId>
 			<artifactId>assemblyai-java</artifactId>
@@ -51,6 +53,37 @@
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.17.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>black.ninia</groupId>
+			<artifactId>jep</artifactId>
+			<version>4.0.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.razorvine</groupId>
+			<artifactId>pickle</artifactId>
+			<version>1.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>opencv</artifactId>
+			<version>4.9.0-1.5.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.tensorflow</groupId>
+			<artifactId>tensorflow</artifactId>
+			<version>1.15.0</version>
 		</dependency>
 
 		<dependency>

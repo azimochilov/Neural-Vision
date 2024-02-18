@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/fotodetector
     username: postgres
-    password: Yaironman@.26
+    password: U2110235
 
   jpa:
     hibernate:
