@@ -17,7 +17,7 @@ public class OpenAiController {
 
     @Autowired
     RestTemplate restTemplate;
-    private String apiKey = "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";
+    private String apiKey = "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";
 
     @PostMapping("/audio")
     public String audio(@RequestParam("file") MultipartFile file){
